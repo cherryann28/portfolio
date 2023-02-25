@@ -486,7 +486,7 @@ footer{
 
 #footer-items{
     line-height: 1.5;
-    /* font-size: 14px; */
+    vertical-align: top;
     color: var(--black);
     padding: 0 2rem;
     display: grid;
@@ -506,6 +506,7 @@ footer{
 #footer-logo img{
     width: 100px;
     margin-left: -20px;
+    position: relative;
 }
 
 #quick-links{
@@ -555,7 +556,7 @@ footer{
 
 /* =============== BREAKPOINTS ============== */
 /* For small  devices */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 340px){
     .container{
         margin-inline: 1rem;
     }
